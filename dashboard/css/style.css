@@ -25,6 +25,11 @@ header .shopping{
   
     
 }
+#headingg{
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: bold;
+}
 header .shopping img{
     cursor: pointer;
     width: 40px;

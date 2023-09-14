@@ -17,10 +17,9 @@ $row = mysqli_fetch_assoc($result);
                     $_SESSION['username'] = $row ['name'];
                     $_SESSION['email'] = $row ['email'];
                 }
-                
                 if(isset($_SESSION['username'])){
                     if(isset($_SESSION['email'])){
-                        header("location:../dashboard/dashboard.php");
+                        header("location:../dashboard/food/cakes");
                     }
                 }
 

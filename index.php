@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Website</title>
+    <title>YourFoodie | Food Delivery App</title>
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/section.css">
     <link rel="stylesheet" href="css/signin.css">
@@ -13,6 +13,11 @@
     <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> -->
     <!-- <script src="js/default_img.js"></script> -->
     
+    <link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/da3wjnlzg/image/upload/v1694711283/favicons-food/u0zffbpigdnmowvhk6it.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/da3wjnlzg/image/upload/v1694711282/favicons-food/nty2ublqmethndjk9xfy.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://res.cloudinary.com/da3wjnlzg/image/upload/v1694711283/favicons-food/mdtafkz1jeoqebtgrxqx.png">
+<link rel="manifest" href="http://res.cloudinary.com/da3wjnlzg/raw/upload/v1694711284/favicons-food/gd3r2ivcidqsaz1i3b6d.webmanifest">
+
 </head>
 <body>
 

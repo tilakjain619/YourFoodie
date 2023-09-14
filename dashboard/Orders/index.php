@@ -68,7 +68,7 @@ if ($result) {
             echo "<details>";
             echo '<summary class="button">Order ID:'. $order_id .'<a href="status/index.php?order_id='.$order_id.'" id="track-order">Track Order</a></summary>';
             echo "<table style='margin-left: 5%;width: 90%;border-collapse: collapse;'>";
-            echo "<thead><tr><th style='border: 1px solid #ccc;font-size: larger;text-align: left;'>Name</th><th style='border: 1px solid #ccc;font-size: larger;'>Quantity</th><th style='border: 1px solid #ccc;font-size: larger;'>Price</th></tr></thead>";
+            echo "<thead><tr style='background: #b6b6b6;'><th style='border: 1px solid #ccc;font-size: larger;text-align: left;'>Name</th><th style='border: 1px solid #ccc;font-size: larger;'>Quantity</th><th style='border: 1px solid #ccc;font-size: larger;'>Price</th></tr></thead>";
             foreach ($foodItems as $index => $foodItem) {
                 echo "<tr>";
                 echo "<td style='border: 1px solid #ccc;font-size: larger;text-align: left;'>" . $foodItem['name'] . "</td>";
@@ -78,8 +78,8 @@ if ($result) {
             }
        
             echo "<tr>";
-            echo "<td colspan='2' style='text-align: center; border: 1px solid #ccc;font-size:2rem;'>Total</td>";
-            echo "<td style='border: 1px solid #ccc;font-size: 2rem;text-align: center;'>" . $amount . "</td>";
+            echo "<td colspan='2' style='text-align: center; border: 1px solid #ccc;font-weight: bold;'>Total</td>";
+            echo "<td style='border: 1px solid #ccc;font-weight: bold;;text-align: center;'>" . $amount . "</td>";
             echo "</tr>";
             echo "</table>";
             echo "</details>";
