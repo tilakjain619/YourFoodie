@@ -1,12 +1,12 @@
 YourFoodie - Online Food Delivery App
 
 **Introduction:**
-yourFoodie is an innovative and user-friendly online food delivery application designed to revolutionize the way people order and enjoy their favorite meals. Built using HTML, PHP, MySQL, and CSS, this app provides a seamless and delightful food ordering experience for users across various platforms.
+YourFoodie is an innovative and user-friendly online food delivery application designed to revolutionize the way people order and enjoy their favorite meals. Built using HTML, PHP, MySQL, and CSS, this app provides a seamless and delightful food ordering experience for users across various platforms.
 
 **Key Features:**
 
 1. **User-Friendly Interface:**
-   - yourFoodie boasts an intuitive and visually appealing interface, ensuring users can easily navigate the app to browse restaurants and place orders.
+   - YourFoodie boasts an intuitive and visually appealing interface, ensuring users can easily navigate the app to browse restaurants and place orders.
 
 2. **Restaurant Listings:**
    - Users can explore a wide range of restaurants, filter by cuisine, read reviews, and view menus, all within the app.
@@ -18,10 +18,10 @@ yourFoodie is an innovative and user-friendly online food delivery application d
    - Track the status of your order in real-time, from preparation to delivery, providing transparency and peace of mind.
 
 5. **Customizable Orders:**
-   - Customize your orders with special instructions or dietary preferences, ensuring your meal is prepared just the way you like it.
+   - Coming Soon: Customize your orders with special instructions or dietary preferences, ensuring your meal is prepared just the way you like it.
 
 6. **Secure Payments:**
-   - Integration with secure payment gateways allows users to make cashless transactions with confidence.
+   - Integration with razorpay's secure payment gateways allows users to make cashless transactions with confidence.
 
 7. **Promotions and Discounts:**
    - Enjoy exclusive discounts, deals, and promotions offered by partner restaurants.
@@ -48,4 +48,4 @@ yourFoodie is an innovative and user-friendly online food delivery application d
 - **User Engagement:** Interactive features such as user reviews and ratings foster a vibrant and engaged community of food enthusiasts.
 
 **Conclusion:**
-yourFoodie is not just a food delivery app; it's a culinary adventure at your fingertips. With its user-friendly interface, real-time tracking, and a wide array of restaurant choices, yourFoodie is set to become the go-to app for foodies looking for a convenient and delightful dining experience. Join us in embracing the future of food delivery with yourFoodie!
+YourFoodie is not just a food delivery app; it's a culinary adventure at your fingertips. With its user-friendly interface, real-time tracking, and a wide array of restaurant choices, yourFoodie is set to become the go-to app for foodies looking for a convenient and delightful dining experience. Join us in embracing the future of food delivery with yourFoodie!
