@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ubuntu:ital,wght@1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+iframe {
+    background: #000;
+    height: 100vh;
+    width: 100vw;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    background: #00000038;
+    align-items: center;
+}
+
+.highlight {
+    transition: all 0.2s;
+border-radius: 50px;
+position: absolute;
+top: 0;
+background: #e9484f;
+left: 0;
+/* z-index: 1; */
+display: block;
+}
+#logo{
+    margin: 10px;
+}
+
+#logo img{
+    height: 79px;
+    margin: -10px 0px;
+    
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Bree Serif', serif;
+}
+
+#navbar::before{
+    content: "";
+    
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#navbar ul li{
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+.nav-text{
+    z-index: 1;
+}
+#navbar ul li a{
+   color: white;
+   display: block;
+   padding: 3px 22px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+ /* footer css */
+.footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .footer-distributed .footer-left {
+      text-align: center;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }

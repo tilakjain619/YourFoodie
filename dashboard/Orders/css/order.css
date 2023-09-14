@@ -1,0 +1,71 @@
+body { 
+	padding: 2em 4em;
+	font-family: Roboto, sans-serif;
+  }
+  
+
+
+  .button {
+	margin-left: 3%;
+	width: 90%;
+	font-weight: bold;
+	padding: 1em 2em;
+	font-size: 18px;
+	background: #765869;
+	border-radius: 3em;
+	color: white;
+	cursor: pointer;
+	margin-top: 1%;
+  }
+  
+  details > div {
+	border: 2px solid rgb(0, 0, 0);
+    position: relative;
+    left: 5%;
+    width: 80%;
+	padding: 0px 5%;
+	margin-bottom: 1%;
+	
+  } 
+  
+  .txtt{
+	margin-bottom: 5%;
+	width: 100%;
+	border: 2px solid rgb(255, 0, 0);
+	text-align: center;
+	background-color: rgb(0, 0, 0);
+	border-radius: 25px;
+	
+  }
+ 
+
+  #track-order{
+	margin-left: 75%;
+	text-decoration: none;
+	color: rgb(255, 126, 13);
+	border: 2px solid black;
+	border-radius: 25px;
+	font-size: 18px;
+	background-color: black;
+	padding: 5px;
+  }
+  #track-order:hover{
+	margin-left: 75%;
+	text-decoration: none;
+	color: rgb(255, 126, 13);
+	border: 2px solid black;
+	border-radius: 25px;
+	background-color: rgb(255, 255, 255);
+	font-size: 18px;
+	padding: 5px;
+  }
+
+  h1 {
+	display: inline-block;
+	font-size: 1.7rem;
+	background-image: linear-gradient(to right, #ed4545, #ffffff);
+	-webkit-background-clip: text;
+	color: transparent;
+	
+  }
+

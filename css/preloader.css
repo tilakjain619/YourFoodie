@@ -1,0 +1,9 @@
+#preloader{
+    /* background: rgb(255, 255, 255) url(../img/loader.gif) no-repeat center center; */
+    background: rgb(0, 0, 0) url(../img/loader2.gif) no-repeat center center;
+    background-size: 25%;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}

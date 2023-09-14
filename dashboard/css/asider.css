@@ -1,0 +1,215 @@
+
+.aside-left{
+    position: fixed;
+    top: -4%;
+}
+.aside-right{
+    position: fixed;
+    top: -4%;
+    left: 86%;
+}
+
+
+
+.aside-left-content{
+    width: 13rem;
+    height: 70vh;
+    position: absolute;
+    top: 213px;
+    display: flex;
+    color: white;
+    /* background-color: rgb(98, 98, 98); */
+
+}
+.aside-right-content{
+    width: 13rem;
+    height: 70vh;
+    position: absolute;
+    top: 213px;
+    left: 86%;
+    display: flex;
+    color: white;
+    /* background-color: rgb(255, 23, 193); */
+}
+
+
+
+
+.nav-text-left a{
+    color: rgb(40, 31, 31);
+    display: block;
+    padding: 15px 22px;
+    margin-left: 30px;
+    font-size: 1.45rem;
+    text-decoration: none;
+}
+
+.nav-text-left a:hover{
+    color: rgb(199, 60, 60);
+    display: block;
+    padding: 15px 22px;
+    margin-left: 30px;
+    font-size: 1.45rem;
+    text-decoration: none;
+}
+
+
+
+
+
+/* sssssss */
+
+hr.line{
+    position: absolute;
+    top: 42px;
+    left: -3px;
+    width: 40px;
+    border: 2px solid rgb(240, 152, 69);
+    opacity: 70%;
+}
+
+#goforhunt{
+    margin-bottom: 20px;
+    margin-left: -5px;
+    font-size: 30px;
+    color: rgb(255, 21, 0);
+    font-family: 'Jokerman', 'Times New Roman', Times, serif;
+    animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.right-menu{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+#vegi{
+    margin-top: -75px;
+}
+
+.right-menu a h5{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(40, 31, 31);
+    position: absolute;
+    left: 109px;
+    margin-top: -65px;
+    transition: all 0.2s;
+}
+
+.right-menu a h5:hover{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(199, 60, 60);
+    position: absolute;
+    left: 109px;
+    margin-top: -65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ddddddddd */
+#img-dish-biryani{
+    height: 88px;
+    width: 91px;
+    margin-left:  3px;
+}
+#img-dish-biryani:hover{
+    height: 90px;
+    width: 93px;
+    margin-left:  1px;
+}
+
+#img-dish-chicken{
+    height: 102px;
+    width: 140px;
+    margin-left:  -20px;
+    margin-top: -11px;
+}
+#img-dish-chicken:hover{
+    height: 104px;
+    width: 142px;
+    margin-left:  -22px;
+    margin-top: -9px;
+}
+
+#img-dish-paneer{
+    height: 100px;
+    width: 100px;
+    margin-left: 0px;
+    margin-top: -15px;
+}
+#img-dish-paneer:hover{
+    height: 102px;
+    width: 102px;
+    margin-left: -2px;
+    margin-top: -13px;
+}
+
+#img-dish-vegi{
+    height: 128px;
+    width: 195px;
+    margin-left:  -46px;
+    margin-top: -32px;
+}
+#img-dish-vegi:hover{
+    height: 130px;
+    width: 197px;
+    margin-left:  -48px;
+    margin-top: -32px;
+}
+
+#img-dish-chinese{
+    height: 100px;
+    width: 100px;
+    margin-left:  3px;
+    margin-top: -27px;
+}
+#img-dish-chinese:hover{
+    height: 102px;
+    width: 102px;
+    margin-left:  1px;
+    margin-top: -25px;
+}
+
+#img-dish-sindia{
+    height: 97px;
+    width: 150px;
+    margin-left:  -19px;
+    margin-top: -12px;
+}
+#img-dish-sindia:hover{
+    height: 99px;
+    width: 152px;
+    margin-left:  -21px;
+    margin-top: -10px;
+}
+
+
+.checkOut button a{
+    color: aqua;
+}

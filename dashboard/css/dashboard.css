@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ubuntu:ital,wght@1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.btn-checkout{
+    border: 1px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar
+    {
+        /* z-index: 100; */ /* uncomment this if necessary */
+        height: 10vh;
+        position: sticky;
+        top: 0%;
+        position: relative;
+    }
+    .highlight {
+        transition: all 0.2s;
+border-radius: 50px;
+position: absolute;
+top: 0;
+background: #e9484f;
+left: 0;
+/* z-index: 1; */
+display: block;
+}
+
+#navbar{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+
+#logo{
+    margin: 10px;
+}
+
+#logo img{
+    height: 79px;
+    margin: -10px 0px;
+    
+}
+
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    flex-wrap: wrap; /* added this so links could fold into different lines for fitting on different screens */
+}
+
+#navbar::before{
+    content: "";
+    
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+
+ul li{
+    list-style-type: none;
+    font-size: 1.3rem;
+    z-index: 2;
+}
+
+
+
+.nav-text a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+   
+}
+
+/* .nav-text a:hover{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: white;
+} */
+
+
+/* .dropbtn{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    border-bottom: 1px solid aqua;
+} */
+
+#hiden{
+    visibility: hidden;
+}
+
+.right-side{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    margin: 0px 61px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    left: 35vw;
+
+}
+
+
+.dropbtn{
+    font-size: 18px;
+    
+    color: white;
+    background-color: black;
+    display: block;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 0.6px solid aqua;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    margin-left: 6px;
+    width: 100px;
+    text-align: center;
+    margin-top: 0px;
+    position: absolute;
+    background-color: #000000;
+    
+}
+
+
+.dropdown-content a{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    padding: 8px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 0.5px solid rgb(255, 219, 13);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+.last{
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    padding: 5px;
+}
+
+/* footer css */
+.footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .footer-distributed .footer-left {
+      text-align: center;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }

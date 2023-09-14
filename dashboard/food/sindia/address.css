@@ -1,0 +1,57 @@
+/* Style for the address card container */
+.address-card {
+    width: 300px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 14.5%;
+    margin-top: 8%;
+}
+
+.address-card a{
+    text-decoration: none;
+    color: #ffeb3b;
+    background-color: black;
+    margin-left: 58%;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+/* Style for each address field */
+.address-card > div {
+    margin-bottom: 10px;
+}
+
+/* Style for the name and lastname fields */
+.name,
+.lastname {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Additional styles for specific fields (customize as needed) */
+.address {
+    font-size: 18px;
+}
+
+.city,
+.state,
+.country {
+    font-size: 17px;
+}
+
+.zipcode {
+    font-size: 16px;
+    color: #e74c3c; /* Customize color as needed */
+}
+
+tbody{
+    background-color: white;
+}
+
+th{
+    background-color: white;
+}
