@@ -155,12 +155,55 @@ $sqlq = "SELECT * FROM addresses WHERE signup_id = $userId ORDER BY address_id D
 ">Continue Shopping</button>
 </div>
 
-<div class="last" style="
-    margin-top: 14.2rem;
-    font-size: 20px;
-">
-  This is Footer and Last section.
-</div>
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="#">Home</a>
+
+					<a href="#">Blog</a>
+
+					<a href="#">Pricing</a>
+
+					<a href="#">About</a>
+
+					<a href="#">Faq</a>
+
+					<a href="#">Contact</a>
+				</p>
+
+				<p>YourFoodie &copy; 2022</p>
+			</div>
+
+		</footer>
+    <script>
+        const triggers = document.querySelectorAll('.navbar a');
+const highlight = document.createElement('span');
+highlight.classList.add('highlight');
+document.body.append(highlight);
+
+function highlightLink() {
+  const linkCoords = this.getBoundingClientRect();
+  console.log(linkCoords);
+
+  const coords = {
+    width: linkCoords.width,
+    height: linkCoords.height,
+    top: linkCoords.top + window.scrollY,
+    left: linkCoords.left + window.scrollX
+  };
+
+  highlight.style.width = `${coords.width}px`;
+  highlight.style.height = `${coords.height}px`;
+  highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`;
+}
+
+triggers.forEach(a => a.addEventListener('mouseenter', highlightLink));
+
+triggers.forEach(a => a.addEventListener('focus', highlightLink));
+    </script>
+
 </body>
     <script>
 document.addEventListener("DOMContentLoaded", function() {

@@ -29,7 +29,7 @@
         
         <ul>
             <li class="nav-text"><a href="http://localhost/FoodDeliveryProject/">Home</a></li>
-            <li class="nav-text"><a href="http://localhost/FoodDeliveryProject/dashboard/food/cakes">Menu</a></li>
+            <li class="nav-text"><a href="#Review">Review</a></li>
             <li class="nav-text"><a href="#O-form">Order</a></li>
             <li class="nav-text"><a href="#">Contact-Us</a></li>
         </ul>
@@ -41,7 +41,7 @@
         <button id="btn"><a href="#our-service">Order Now</a></button>
     </section>
     
-    <section class="services-container">
+    <section id="O-form" class="services-container">
         <h1 class="h-primary center" id="our-service">Our Trending items</h1>
         <div id="services" class="content__shows">
             <div>
@@ -83,14 +83,14 @@
             
         </section> -->
 <!-- user reviews - testimonials -->
-        <section class="user-section">
+        <section class="user-section" id="Review">
             <h2 class="user-title">What our users say?</h2>
         <figure class="snip1533">
   <figcaption>
     <blockquote>
       <p>Thanks to this app, I can order any meal from my favorite restaurants with just a few taps on my phone.</p>
     </blockquote>
-    <h3>Sarah Johnson</h3>
+    <h3>Ravindra Joshi</h3>
     <h4>Teacher</h4>
   </figcaption>
 </figure>
@@ -99,7 +99,7 @@
     <blockquote>
       <p>It has become our go-to solution for lunch breaks and late-night coding sessions. Five stars!</p>
     </blockquote>
-    <h3>Mark Williams</h3>
+    <h3>Tilak Jain</h3>
     <h4>Software Developer</h4>
   </figcaption>
 </figure>
@@ -108,34 +108,12 @@
     <blockquote>
       <p>This food delivery app has been a lifesaver on those days when I just can't find the time to cook</p>
     </blockquote>
-    <h3>Emily Lewis</h3>
+    <h3>Padma Gaikwad</h3>
     <h4>Housewife</h4>
   </figcaption>
 </figure>
         </section>
 
-<!-- Coupon Popup -->
-<div class="coupon-popup" id="couponPopup">
-    <div class="popup-content">
-        <span class="close-button" onclick="closePopup()">&times;</span>
-        <h2>Get 10% Off Your First Order!</h2>
-        <p>Use coupon code: <strong>FIRST</strong></p>
-    </div>
-</div>
-<script>
-    // Function to display the popup
-    function showPopup() {
-        document.getElementById('couponPopup').style.display = 'block';
-    }
-
-    // Function to close the popup
-    function closePopup() {
-        document.getElementById('couponPopup').style.display = 'none';
-    }
-
-    // Show the popup on page load
-    window.onload = showPopup;
-</script>
 
 
         <footer class="footer-distributed">

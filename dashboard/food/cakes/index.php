@@ -59,7 +59,28 @@
         </div> 
 </div>
 
+<!-- Coupon Popup -->
+<div class="coupon-popup" id="couponPopup">
+    <div class="popup-content">
+        <span class="close-button" onclick="closePopup()">&times;</span>
+        <h2>Get 10% Off Your First Order!</h2>
+        <p>Use coupon code: <strong>FIRST</strong></p>
+    </div>
+</div>
+<script>
+    // Function to display the popup
+    function showPopup() {
+        document.getElementById('couponPopup').style.display = 'block';
+    }
 
+    // Function to close the popup
+    function closePopup() {
+        document.getElementById('couponPopup').style.display = 'none';
+    }
+
+    // Show the popup on page load
+    window.onload = showPopup;
+</script>
     <div class="card">
         <h3>CHECKOUT</h3>
         <h4>Rs.</h4>

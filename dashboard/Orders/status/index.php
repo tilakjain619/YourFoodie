@@ -116,10 +116,10 @@ if (trackStatus === 'order baked') {
     progressItems[1].classList.add('active');
 }
 
-// Reload the page every 5 seconds
-    // setInterval(function() {
-    //     location.reload();
-    // }, 5000);
+// Reload the page every 3 seconds
+    setInterval(function() {
+        location.reload();
+    }, 3000);
 
 </script>
 
