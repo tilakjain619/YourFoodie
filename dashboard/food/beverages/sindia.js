@@ -34,51 +34,51 @@ closeShopping.addEventListener('click', ()=>{
 let products = [
     {
         id: 1,
-        name: 'Masala Dosa',
-        image: 'MasalaDosa.PNG',
-        price: 60
+        name: 'BerryBlastThickShake',
+        image: 'BerryBlastThickShake.png',
+        price: 99
     },
     {
         id: 2,
-        name: 'Uttapam',
-        image: 'Uttapam.PNG',
-        price: 80
+        name: 'PepsiBlack(Medium)',
+        image: 'PepsiBlack(Medium).png',
+        price: 150
     },
     {
         id: 3,
-        name: 'Idli',
-        image: 'Idli.PNG',
-        price: 40
+        name: 'MangoThickShake',
+        image: 'MangoThickShake.png',
+        price: 120
     },
     {
         id: 4,
-        name: 'Vada',
-        image: 'Vada.PNG',
-        price: 20
+        name: 'ChocolateThickShake',
+        image: 'ChocolateThickShake.png',
+        price: 200
     },
     {
         id: 5,
-        name: 'Sambar',
-        image: 'Sambar.PNG',
-        price: 35
+        name: 'MountainDew(Medium)',
+        image: 'MountainDew(Medium).png',
+        price: 230
     },
     {
         id: 6,
-        name: 'Appam',
-        image: 'Appam.PNG',
-        price: 75
+        name: 'LiptonIceTea(Medium)',
+        image: 'LiptonIceTea(Medium).png',
+        price: 250
     },
     {
         id: 7,
-        name: 'Rasam',
-        image: 'Rasam.PNG',
-        price: 50
+        name: '7Up(Medium)',
+        image: '7Up(Medium).png',
+        price: 109
     },
     {
         id: 8,
-        name: 'Coconut',
-        image: 'Coconut.PNG',
-        price: 15
+        name: 'Pepsi(Medium)',
+        image: 'Pepsi(Medium).png',
+        price: 99
     },
     
 ];
@@ -91,7 +91,7 @@ function initApp(){
             <img src="image/${value.image}">
             <div class="title">${value.name}</div>
             <div class="price">Rs.${value.price.toLocaleString()}</div>
-            <button onclick="addToCard(${key})">Add To Cart</button>`;
+            <button onclick="addToCard(${key})">Add To Card</button>`;
         list.appendChild(newDiv);
     })
 }

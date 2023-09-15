@@ -107,7 +107,7 @@ session_start();
             <div class="jumbotron jumbotron-fluid rounded bg-white border-0 shadow-sm border-left px-4">
             <div class="container">
                 <h1 class="display-4 mb-2 text-primary">Simple</h1>
-                <p class="lead text-muted">Simple Admin Dashboard with Bootstrap.</p>
+                <p class="lead text-muted">Admin Dashboard</p>
             </div>
             </div>
         </main>

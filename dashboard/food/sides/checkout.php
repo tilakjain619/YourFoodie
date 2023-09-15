@@ -135,7 +135,7 @@ var discountApplied = false; // Flag to track if discount has been applied
             var applyButton = document.getElementById('applyButton');
             
             
-            var correctDiscountCode = "10"; 
+            var correctDiscountCode = "FIRST"; 
             var discountPercentage = 10; 
             
             if (discountCode === correctDiscountCode) {

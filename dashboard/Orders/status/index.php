@@ -42,7 +42,6 @@ if ($result->num_rows > 0) {
                         <h5>ORDER <span class="text-primary font-weight-bold"><?php echo $order_id;?></span></h5>
                  </div>
                     <div class="d-flex flex-column text-sm-right">
-                        <p class="mb-0">Expected Arrival <span>01/12/19</span></p>
                         <p>TXN-ID <span class="font-weight-bold"><?php echo $txnid;?></span></p>
                     </div>
                 </div>

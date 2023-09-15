@@ -29,7 +29,7 @@
         
         <ul>
             <li class="nav-text"><a href="http://localhost/FoodDeliveryProject/">Home</a></li>
-            <li class="nav-text"><a href="http://localhost/FoodDeliveryProject/dashboard/dashboard.php">Menu</a></li>
+            <li class="nav-text"><a href="http://localhost/FoodDeliveryProject/dashboard/food/cakes">Menu</a></li>
             <li class="nav-text"><a href="#O-form">Order</a></li>
             <li class="nav-text"><a href="#">Contact-Us</a></li>
         </ul>
@@ -47,21 +47,21 @@
             <div>
                 <!-- https://source.unsplash.com/random/?Pizza/1080x675" -->
                 <!-- img/pizza.jpg -->
-                <a href="login-main/login.php"><img id="imagep" alt="Pizza" src="img/pizza.jpg"></a>
+                <a href="login-main/login.php"><img id="imagep" alt="Pizza" src="./dashboard/food/pizza/image/pizza-bg.jpg"></a>
                 <div class="title-box"></div>
                 <p class="name"><a href="login-main/login.php"><span>PIZZA</span></a>Delicious pizza's, topped with gooey cheese, savory sauce, and your favorite toppings. Pure satisfaction in every bite!</p>
             </div>
             <div>
                 <!-- https://source.unsplash.com/random/?Cake/1080x675 -->
                 <!-- img/cake.jpg -->
-                <a href="login-main/login.php"><img id="imagec" alt="Cake" src="img/cake.jpg"></a>
+                <a href="login-main/login.php"><img id="imagec" alt="Cake" src="./dashboard/food/cakes/image/cake-bg.jpg"></a>
                 <div class="title-box"></div>
                     <p class="name"><a href="login-main/login.php"><span>CAKES</span></a>Cakes are delightful treats enjoyed worldwide. They come in various flavors, sizes, and designs, pleasing every palate. Indulge now!</p>
                 </div>
                 <div>
                     <!-- https://source.unsplash.com/random/?Burger/1080x675 -->
                     <!-- img/burger.jpg -->
-                    <a href="login-main/login.php"><img id="imageb" alt="Burger" src="img/cake.jpg"></a>
+                    <a href="login-main/login.php"><img id="imageb" alt="Burger" src="./dashboard/food/burger/image/burger-bg.jpg"></a>
                     <div class="title-box"></div>
                     <p class="name"><a href="login-main/login.php"><span>BURGER</span></a>Burgers are delicious fast food items loved globally for their juicy patties, tasty toppings, and satisfying buns.</p>
                 </div>

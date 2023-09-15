@@ -13,7 +13,7 @@
 
 .aside-left-content{
     width: 13rem;
-    height: 70vh;
+    height: 30vh;
     position: absolute;
     top: 213px;
     display: flex;
@@ -25,7 +25,7 @@
     width: 13rem;
     height: 70vh;
     position: absolute;
-    top: 213px;
+    top: 180px;
     left: 86%;
     display: flex;
     color: white;
@@ -98,6 +98,7 @@ hr.line{
 
 #vegi{
     margin-top: -75px;
+    margin-left: 4px;
 }
 
 .right-menu a h5{
@@ -145,17 +146,18 @@ hr.line{
 }
 
 #img-dish-chicken{
-    height: 102px;
-    width: 140px;
-    margin-left:  -20px;
-    margin-top: -11px;
+    height: 82px;
+    width: 98px;
+    margin-left: -2px;
+    margin-top: -9px;
+    margin-bottom: 11px;
 }
-#img-dish-chicken:hover{
+/* #img-dish-chicken:hover{
     height: 104px;
     width: 142px;
     margin-left:  -22px;
     margin-top: -9px;
-}
+} */
 
 #img-dish-paneer{
     height: 100px;
@@ -171,16 +173,18 @@ hr.line{
 }
 
 #img-dish-vegi{
-    height: 128px;
-    width: 195px;
-    margin-left:  -46px;
-    margin-top: -32px;
+    height: 114px;
+    width: 181px;
+    margin-left: -42px;
+    margin-bottom: 8px;
+    margin-top: -26px;
 }
 #img-dish-vegi:hover{
-    height: 130px;
-    width: 197px;
-    margin-left:  -48px;
-    margin-top: -32px;
+    height: 114px;
+    width: 181px;
+    margin-left: -42px;
+    margin-bottom: 8px;
+    margin-top: -26px;
 }
 
 #img-dish-chinese{
@@ -198,18 +202,112 @@ hr.line{
 
 #img-dish-sindia{
     height: 97px;
-    width: 150px;
-    margin-left:  -19px;
-    margin-top: -12px;
+    width: 103px;
+    margin-left: 3px;
+    margin-top: -4px;
 }
-#img-dish-sindia:hover{
-    height: 99px;
-    width: 152px;
-    margin-left:  -21px;
-    margin-top: -10px;
-}
+
 
 
 .checkOut button a{
     color: aqua;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slideshowContainer {
+    position: relative;
+    overflow: hidden;
+    margin: 50px 0 75px;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .imageSlides {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: -1;
+  }
+  
+  /* add 'visible' class via Javascript */
+  .visible {
+    opacity: 1;
+  }
+  
+  .slideshowArrow {
+    font-size: 7em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .slideshowArrow:hover {
+    opacity: 0.75;
+  }
+  
+  #leftArrow {
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #rightArrow {
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+  
+  .slideshowCircles {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .circle {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    transition: 1s ease-in-out;
+  }
+  
+  .dot {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid 2px rgba(255, 255, 255, 0.5);
+  }

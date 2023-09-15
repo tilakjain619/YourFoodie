@@ -133,7 +133,7 @@ else if(@$_GET['User']){
                 <div class="button input-box">
                   <input type="submit" value="Sumbit" onclick="message()">
                 </div>
-                <div class="text sign-up-text">Don't have an account? <label for="flip">Sigup now</label></div>
+                <div class="text sign-up-text">Don't have an account? <label for="flip">Sign up</label></div>
                 </div>
               </form>
               

@@ -9,6 +9,11 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADMIN Panel</title>
     <link rel="stylesheet" href="css/default.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/da3wjnlzg/image/upload/v1694711283/favicons-food/u0zffbpigdnmowvhk6it.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/da3wjnlzg/image/upload/v1694711282/favicons-food/nty2ublqmethndjk9xfy.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://res.cloudinary.com/da3wjnlzg/image/upload/v1694711283/favicons-food/mdtafkz1jeoqebtgrxqx.png">
+<link rel="manifest" href="http://res.cloudinary.com/da3wjnlzg/raw/upload/v1694711284/favicons-food/gd3r2ivcidqsaz1i3b6d.webmanifest">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
@@ -102,7 +107,7 @@ session_start();
             <div class="jumbotron jumbotron-fluid rounded bg-white border-0 shadow-sm border-left px-4">
             <div class="container">
                 <h1 class="display-4 mb-2 text-primary">Simple</h1>
-                <p class="lead text-muted">Simple Admin Dashboard with Bootstrap.</p>
+                <p class="lead text-muted">Admin Dashboard</p>
             </div>
             </div>
         </main>

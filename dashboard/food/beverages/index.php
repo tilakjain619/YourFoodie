@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/dashboard.css">
     <link rel="stylesheet" href="../../css/asider.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/da3wjnlzg/image/upload/v1694711283/favicons-food/u0zffbpigdnmowvhk6it.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/da3wjnlzg/image/upload/v1694711282/favicons-food/nty2ublqmethndjk9xfy.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://res.cloudinary.com/da3wjnlzg/image/upload/v1694711283/favicons-food/mdtafkz1jeoqebtgrxqx.png">
-<link rel="manifest" href="http://res.cloudinary.com/da3wjnlzg/raw/upload/v1694711284/favicons-food/gd3r2ivcidqsaz1i3b6d.webmanifest">
-
 </head>
 <body class="">
 
@@ -26,7 +21,7 @@
                 <li class="nav-text"><a href="http://localhost/FoodDeliveryProject/">Home</a></li>
                 <li class="nav-text"><a href="#">Menu</a></li>
                 <li class="nav-text"><a href="#O-form">Order</a></li>
-                <li class="nav-text"><a href="../../contact-us.php">Contact-Us</a></li>
+                <li class="nav-text"><a href="#">Contact-Us</a></li>
             </ul>
             <ul> 
                 <li class="right-side">
@@ -53,22 +48,21 @@
 </div>
 
 
-
-    <div class="container">
-        <header></header>
-
-
+<div class="container">
+        <header id="headingg">Beverages</header>
         <div class="list">
-          
-        </div>
-    </div>
+        </div> 
+</div>
+
+
     <div class="card">
         <h3>CHECKOUT</h3>
+        <h4>Rs.</h4>
         <h1>Cart</h1>
         <ul class="listCard">
         </ul>
         <div class="checkOut">    
-            <div onclick="redirecto()">Proceed:&nbsp;<span class='total' id='tbox'>0</span>&nbsp;Rs</div>
+            <div onclick="redirecto()" class='total' id='tbox' >0</div>
             <div class="closeShopping" id="lbox" >Close</div>
         </div>
     </div>
@@ -95,13 +89,39 @@
 
             <div class="right-menu">
                 <div class="menu-first">
-                    <a href="../cakes/index.php"><img id="img-dish-sindia" alt="Cake" src="../sindia/image/sindia.png"></a>
+                    <a href="../cakes/"><img id="img-dish-biryani" alt="cakes" src="../cakes/image/cake.png"></a>
                 </div>
-                <a href="../sindia/sindia.php"><h5 id="cakes">Cakes</h5></a>
+                <a href="../cakes/" id="biryani"><h5>Cake's</h5></a>
+
+                <!-- <div class="menu-first">
+                    <a href="../biryani/biryani.php"><img id="img-dish-biryani" alt="biryani" src="../biryani/image/biryani1.png"></a>
+                </div>
+                <a href="../biryani/biryani.php" id="biryani"><h5>Biryani</h5></a> -->
+
                 <div class="menu-first">
-                    <a href="../sindia/sindia.php"><img id="img-dish-sindia" alt="Pizza" src="../sindia/image/sindia.png"></a>
+                    <a href="../burger"><img id="img-dish-chicken" alt="burger" src="../burger/image/burger.png"></a>
                 </div>
-                <a href="../sindia/sindia.php"><h5 id="sindia">South-Indian</h5></a>
+                <a href="../burger/"><h5 id="chicken">Burger's</h5></a>
+                
+                <div class="menu-first">
+                    <a href="../pizza"><img id="img-dish-paneer" alt="pizza" src="../pizza/image/pizza.png"></a>
+                </div>
+                <a href="../pizza"><h5 id="panner">Pizza's</h5></a>
+                
+                <div class="menu-first">
+                <a href="../sides/"><img id="img-dish-vegi" alt="Sides" src="../sides/image/sides.png"></a>
+                </div>
+                <a href="../sides/"><h5 id="vegi">Sides</h5></a>
+                
+                <div class="menu-first">
+                    <a href="../beverages/"><img id="img-dish-chinese" alt="Beverages" src="../beverages/image/beverages.png"></a>
+                </div>
+                <a href="../beverages/"><h5 id="chinese">Beverages</h5></a>
+               
+                <div class="menu-first">
+                    <a href="../cafe/"><img id="img-dish-sindia" alt="cafe" src="../cafe/image/cafe.png"></a>
+                </div>
+                <a href="../cafe/"><h5 id="sindia">Cafe</h5></a>
             
             </div>
            
@@ -109,9 +129,10 @@
     </div>
 </div>
 
-<div>
+<!-- <div>
     <button onclick="alldata()">click me</button>
-</div>
+</div> -->
+
 
 
 <footer class="footer-distributed">
@@ -162,6 +183,8 @@ triggers.forEach(a => a.addEventListener('mouseenter', highlightLink));
 
 triggers.forEach(a => a.addEventListener('focus', highlightLink));
     </script>
+
+
 </body>
 <script src="sindia.js"></script>
 </html>
