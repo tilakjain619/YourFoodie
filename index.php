@@ -31,7 +31,7 @@
             <li class="nav-text"><a href="http://localhost/FoodDeliveryProject/">Home</a></li>
             <li class="nav-text"><a href="#Review">Review</a></li>
             <li class="nav-text"><a href="#O-form">Order</a></li>
-            <li class="nav-text"><a href="#">Contact-Us</a></li>
+            <li class="nav-text"><a href="./dashboard/contact-us.php">Contact-Us</a></li>
         </ul>
     </nav>
     
